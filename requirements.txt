@@ -1,4 +1,0 @@
-requests
-BeautifulSoup4
-discord-webhook
-proxyscrape
