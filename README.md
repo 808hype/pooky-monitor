@@ -11,4 +11,3 @@ Monitors for new pooky files loaded on the Supreme site. Written in Python using
 - Discord/Slack webhook support
 - Choose between automatically scraped proxies or your own
 - Set monitor delay
-- Can rotate between locales
