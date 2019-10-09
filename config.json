@@ -1,0 +1,11 @@
+{
+  "discordWebhook": "",
+  "slackWebhook": "",
+  "region": "US",
+  "delay": 5,
+  "useProxies": false,
+  "proxies": [
+    "0.0.0.0:8080",
+    "0.0.0.0:4141"
+  ]
+}
