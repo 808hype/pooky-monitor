@@ -101,7 +101,7 @@ def monitor_pooky(data):
             print("Monitoring...")
             r = requests.get("https://supremenewyork.com/mobile", headers=headers, proxies=proxies)
             parsed = parse_html(r.text)
-            if parsed[0] == "":
+            if parsed[0] is None:
                 pass
             else:
                 hooked = send_webhook(data[0], data[1], parsed[0], parsed[1], parsed[2], parsed[3])
